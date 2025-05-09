@@ -1,0 +1,16 @@
+RESPOSTAS:
+1 - B
+2 - Certo
+3 - D
+4 - B
+5 - A
+6 - A
+7 - E
+8 - Errado
+9 - A
+10 - Certo
+11 - D
+12 - Errado
+13 - Certo
+14 - Errado
+15 - B
