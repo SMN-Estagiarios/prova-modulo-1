@@ -1,0 +1,15 @@
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/leomax.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/leomax.AssemblyInfoInputs.cache
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/leomax.AssemblyInfo.cs
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/leomax.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/leomax.sourcelink.json
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/bin/Debug/net8.0/leomax
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/bin/Debug/net8.0/leomax.deps.json
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/bin/Debug/net8.0/leomax.runtimeconfig.json
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/bin/Debug/net8.0/leomax.dll
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/bin/Debug/net8.0/leomax.pdb
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/leomax.dll
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/refint/leomax.dll
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/leomax.pdb
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/leomax.genruntimeconfig.cache
+/mnt/c/Users/Leomax Filho/Documents/Code/PROVA/prova-modulo-1/leomax/obj/Debug/net8.0/ref/leomax.dll
