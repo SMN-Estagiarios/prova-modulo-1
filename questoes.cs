@@ -26,9 +26,6 @@ class Program
                 case 3:
                     Questao3();
                     break;
-                case 4:
-                    Questao4();
-                    break;
                 case 0:
                     Console.WriteLine("Saindo...");
                     break;
