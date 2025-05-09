@@ -24,7 +24,7 @@ class Program
                     Questao2();
                     break;
                 case 3:
-                    Questao3();
+                    Maioremenor();
                     break;
                 case 0:
                     Console.WriteLine("Saindo...");
@@ -57,7 +57,7 @@ class Program
         // O aluno deve verificar se o número é primo
     }
 
-    static void Questao3()
+    static void Maioremenor()
     {
         // Desafio: Solicite N números ao usuário e encontre o maior e o menor deles
         Console.Write("Quantos números deseja inserir? ");
@@ -67,6 +67,21 @@ class Program
         int menor = int.MaxValue;
 
         // Escreva o que falta aqui
+         for (int i = 0; i < qtd; i++)
+        {
+            Console.WriteLine($"Digite o {i + 1}º número: ");
+            int numero = int.Parse(Console.ReadLine());
+
+            if (numero > maior)
+            {
+                maior = numero
+            }
+            
+            if (numero < menor)
+            {
+                menor = numero
+            }
+        }
 
         Console.WriteLine($"Maior número: {maior}");
         Console.WriteLine($"Menor número: {menor}");
