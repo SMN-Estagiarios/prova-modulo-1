@@ -18,13 +18,13 @@ class Program
             switch (opcao)
             {
                 case 1:
-                    Questao1();
+                    SomaNumeros();
                     break;
                 case 2:
-                    Questao2();
+                    EncontraNumeroPrimo();
                     break;
                 case 3:
-                    Questao3();
+                    EncontraMaiorMenor();
                     break;
                 case 0:
                     Console.WriteLine("Saindo...");
@@ -39,25 +39,47 @@ class Program
         } while (opcao != 0);
     }
 
-    static void Questao1()
+    static void SomaNumeros()
     {
         // TODO: Solicite um número N ao usuário e calcule a soma dos N primeiros números naturais
         Console.Write("Digite um número N: ");
         int n = int.Parse(Console.ReadLine());
 
         // O aluno deve implementar a soma
+        int soma = 0;
+        for(int i = 1; i <= n; i++)
+        {
+            soma += i;
+        }
+        Console.WriteLine($"SOMA: {soma}");
     }
 
-    static void Questao2()
+    static void EncontraNumeroPrimo()
     {
         // TODO: Solicite um número ao usuário e verifique se ele é primo
         Console.Write("Digite um número para verificar se é primo: ");
         int num = int.Parse(Console.ReadLine());
 
         // O aluno deve verificar se o número é primo
+        int contPrimo = 0;
+        for(int i = 1; i <= num; i++)
+        {
+            if(num % i == 0)
+            {
+                contPrimo++;
+            }
+        }
+        if(contPrimo == 2 || num == 1)
+        {
+            Console.WriteLine($"Número {num} é primo.");
+        }
+        else
+        {
+            Console.WriteLine($"Número {num} não é primo.");
+        }
     }
 
-    static void Questao3()
+    static void EncontraMaiorMenor()
     {
         // Desafio: Solicite N números ao usuário e encontre o maior e o menor deles
         Console.Write("Quantos números deseja inserir? ");
@@ -67,6 +89,27 @@ class Program
         int menor = int.MaxValue;
 
         // Escreva o que falta aqui
+        for(int i = 1; i <= qtd; i++)
+        {
+            Console.Write($"Insira o {i}º número: ");
+            int num = int.Parse(Console.ReadLine());
+            if(i == 1)
+            {
+                menor = num;
+                maior = num;
+            }
+            else
+            {
+                if (num < menor)
+                {
+                    menor = num;
+                }
+                else if (num > maior)
+                {
+                    maior = num;
+                }
+            }
+        }
 
         Console.WriteLine($"Maior número: {maior}");
         Console.WriteLine($"Menor número: {menor}");
