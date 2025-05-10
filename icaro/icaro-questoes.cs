@@ -69,7 +69,7 @@ class Program
                 contPrimo++;
             }
         }
-        if(contPrimo == 2 || num == 1)
+        if(contPrimo == 2)
         {
             Console.WriteLine($"Número {num} é primo.");
         }
